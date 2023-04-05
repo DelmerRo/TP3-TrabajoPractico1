@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Trabajo Practico</string>
+    <string name="register">Register</string>
+    <string name="btnLoginNext">next</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtSearchDesafio2">Search</string>
+    <string name="btnSearchDesafio2">search</string>
+    <string name="txtDesafio1">Desafio 1</string>
+    <string name="txtDesafio2">desafio 2</string>
+</resources>
