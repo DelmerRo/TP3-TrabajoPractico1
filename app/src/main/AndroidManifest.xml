@@ -12,6 +12,18 @@
         android:theme="@style/Theme.TrabajoPractico"
         tools:targetApi="31">
         <activity
+            android:name=".activities.Desafio3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".activities.ResultActivity"
             android:exported="false" />
         <activity
@@ -22,13 +34,7 @@
             android:exported="false" />
         <activity
             android:name=".MenuActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
